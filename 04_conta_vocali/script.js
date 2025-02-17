@@ -6,6 +6,17 @@ const word = 'javascript';
 // Dichiara la funzione qui.
 
 
+function getVowels(str) {
+    let numberofvowels = str.match(/[aeiou]/gi);
+    return numberofvowels === null ? 0 : numberofvowels.length;
+
+}
+
+console.log(getVowels(word))
+
+
+
+
 // Invoca la funzione qui e stampa il risultato in console
 
 
