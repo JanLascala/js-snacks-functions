@@ -6,6 +6,7 @@ e buonasera se è sera (oltre le 17)
 */
 
 const name = 'Mario';
+console.log(name)
 
 
 // Dichiara la funzione qui.
@@ -16,18 +17,19 @@ function greet(name) {
     if (hour > 18) {
         console.log("buona sera" + " " + (name));
     } else {
-        console.log("buongiorno" + " " + (name))
+        console.log("buongiorno" + " " + (name));
 
     }
 
 }
 
-/* best i could do*/ 
+
+/* best i could do*/
 
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+greet(name)
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
