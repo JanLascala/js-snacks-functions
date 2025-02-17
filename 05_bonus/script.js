@@ -10,6 +10,21 @@ const name = 'Mario';
 
 // Dichiara la funzione qui.
 
+function greet(name) {
+    let day = new Date();
+    let hour = day.getHours();
+    if (hour > 18) {
+        console.log("buona sera" + " " + (name));
+    } else {
+        console.log("buongiorno" + " " + (name))
+
+    }
+
+}
+
+/* best i could do*/ 
+
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
